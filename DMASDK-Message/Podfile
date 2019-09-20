@@ -1,0 +1,10 @@
+platform :ios, '9.0'
+project 'DMASDK-Message'
+
+inhibit_all_warnings!
+use_frameworks!
+
+target 'DMASDK-Message' do
+    pod 'ElastosCarrierSDK' , '~> 5.3.2'
+end
+

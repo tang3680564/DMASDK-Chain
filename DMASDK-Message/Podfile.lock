@@ -1,0 +1,16 @@
+PODS:
+  - ElastosCarrierSDK (5.3.2)
+
+DEPENDENCIES:
+  - ElastosCarrierSDK (~> 5.3.2)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - ElastosCarrierSDK
+
+SPEC CHECKSUMS:
+  ElastosCarrierSDK: 7adb827c3a68f9afb4916b1a9cb15bee60adb772
+
+PODFILE CHECKSUM: d55a82148c5fee3571ff708083083d052671bdf0
+
+COCOAPODS: 1.5.3

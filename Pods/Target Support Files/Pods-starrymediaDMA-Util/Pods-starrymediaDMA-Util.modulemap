@@ -1,6 +1,0 @@
-framework module Pods_starrymediaDMA_Util {
-  umbrella header "Pods-starrymediaDMA-Util-umbrella.h"
-
-  export *
-  module * { export * }
-}
