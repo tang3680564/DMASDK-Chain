@@ -6,11 +6,10 @@ Pod::Spec.new do |s|
   s.license                   = { :type => 'MIT', :file => 'LICENSE' }
   s.author                    = { 'tangjianqiang' => '494326253@qq.com' }
   s.source                    = { :git => 'https://github.com/tang3680564/DMASDK-Chain.git', :tag => s.version}
-  s.ios.vendored_frameworks   = 'Carthage/Build/iOS/*.framework'
-
   s.platform                  = :ios
   s.ios.deployment_target     = '9.0'
   s.swift_version             = '4.2'
+  s.ios.vendored_frameworks   = 'starrymediaDMA_Util.framework'
 
   # 依赖库
   s.dependency 'Alamofire', '~> 4.7'
