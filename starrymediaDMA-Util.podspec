@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                      = 'starrymediaDMA-Util'
-  s.version                   = '1.0.0'
+  s.version                   = '1.0.2'
   s.summary                   = 'starrymediaDMA-Util Framework'
   s.homepage                  = 'https://github.com/tang3680564/DMASDK-Chain'
   s.license                   = { :type => 'MIT', :file => 'LICENSE' }
