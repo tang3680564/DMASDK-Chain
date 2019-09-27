@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		C7731D6C789B87AB67C8730B /* Pods_DMASDK_Message.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4457CD2D9E4C2BB16DBF021 /* Pods_DMASDK_Message.framework */; };
 		F892D19D2334CBAC003D0479 /* DMASDK_Message.h in Headers */ = {isa = PBXBuildFile; fileRef = F892D19B2334CBAC003D0479 /* DMASDK_Message.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F892D1A92334CC41003D0479 /* GroupHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F892D1A62334CC41003D0479 /* GroupHelper.swift */; };
-		F892D1AA2334CC41003D0479 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F892D1A72334CC41003D0479 /* NetworkReachabilityManager.swift */; };
-		F892D1AB2334CC41003D0479 /* MessageBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = F892D1A82334CC41003D0479 /* MessageBase.swift */; };
-		F892D1AF2334CC69003D0479 /* MessageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F892D1AD2334CC69003D0479 /* MessageService.swift */; };
-		F892D1B02334CC69003D0479 /* GroupService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F892D1AE2334CC69003D0479 /* GroupService.swift */; };
+		F8EA3E9F233E14BF009E399F /* GroupHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EA3E9C233E14BF009E399F /* GroupHelper.swift */; };
+		F8EA3EA0233E14BF009E399F /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EA3E9D233E14BF009E399F /* NetworkReachabilityManager.swift */; };
+		F8EA3EA1233E14BF009E399F /* MessageBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EA3E9E233E14BF009E399F /* MessageBase.swift */; };
+		F8EA3EA6233E14D5009E399F /* MessageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EA3EA4233E14D5009E399F /* MessageService.swift */; };
+		F8EA3EA7233E14D5009E399F /* GroupService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8EA3EA5233E14D5009E399F /* GroupService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,11 +23,11 @@
 		F892D1982334CBAC003D0479 /* DMASDK_Message.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DMASDK_Message.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F892D19B2334CBAC003D0479 /* DMASDK_Message.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMASDK_Message.h; sourceTree = "<group>"; };
 		F892D19C2334CBAC003D0479 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F892D1A62334CC41003D0479 /* GroupHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupHelper.swift; sourceTree = "<group>"; };
-		F892D1A72334CC41003D0479 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkReachabilityManager.swift; sourceTree = "<group>"; };
-		F892D1A82334CC41003D0479 /* MessageBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageBase.swift; sourceTree = "<group>"; };
-		F892D1AD2334CC69003D0479 /* MessageService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageService.swift; sourceTree = "<group>"; };
-		F892D1AE2334CC69003D0479 /* GroupService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupService.swift; sourceTree = "<group>"; };
+		F8EA3E9C233E14BF009E399F /* GroupHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupHelper.swift; sourceTree = "<group>"; };
+		F8EA3E9D233E14BF009E399F /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkReachabilityManager.swift; sourceTree = "<group>"; };
+		F8EA3E9E233E14BF009E399F /* MessageBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageBase.swift; sourceTree = "<group>"; };
+		F8EA3EA4233E14D5009E399F /* MessageService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageService.swift; sourceTree = "<group>"; };
+		F8EA3EA5233E14D5009E399F /* GroupService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GroupService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,49 +80,47 @@
 		F892D19A2334CBAC003D0479 /* DMASDK-Message */ = {
 			isa = PBXGroup;
 			children = (
-				F892D1A42334CC38003D0479 /* Service */,
-				F892D1A32334CC32003D0479 /* Base */,
+				F8EA3EA2233E14C3009E399F /* Base */,
+				F8EA3E9A233E14B0009E399F /* Service */,
 				F892D19B2334CBAC003D0479 /* DMASDK_Message.h */,
 				F892D19C2334CBAC003D0479 /* Info.plist */,
 			);
 			path = "DMASDK-Message";
 			sourceTree = "<group>";
 		};
-		F892D1A32334CC32003D0479 /* Base */ = {
+		F8EA3E9A233E14B0009E399F /* Service */ = {
 			isa = PBXGroup;
 			children = (
-				F892D1A52334CC41003D0479 /* carrier */,
-			);
-			path = Base;
-			sourceTree = "<group>";
-		};
-		F892D1A42334CC38003D0479 /* Service */ = {
-			isa = PBXGroup;
-			children = (
-				F892D1AC2334CC69003D0479 /* carrier */,
+				F8EA3E9B233E14BF009E399F /* carrier */,
 			);
 			path = Service;
 			sourceTree = "<group>";
 		};
-		F892D1A52334CC41003D0479 /* carrier */ = {
+		F8EA3E9B233E14BF009E399F /* carrier */ = {
 			isa = PBXGroup;
 			children = (
-				F892D1A62334CC41003D0479 /* GroupHelper.swift */,
-				F892D1A72334CC41003D0479 /* NetworkReachabilityManager.swift */,
-				F892D1A82334CC41003D0479 /* MessageBase.swift */,
+				F8EA3E9C233E14BF009E399F /* GroupHelper.swift */,
+				F8EA3E9D233E14BF009E399F /* NetworkReachabilityManager.swift */,
+				F8EA3E9E233E14BF009E399F /* MessageBase.swift */,
 			);
-			name = carrier;
-			path = ../../../../DMASDK/DMASDKV1/Base/carrier;
+			path = carrier;
 			sourceTree = "<group>";
 		};
-		F892D1AC2334CC69003D0479 /* carrier */ = {
+		F8EA3EA2233E14C3009E399F /* Base */ = {
 			isa = PBXGroup;
 			children = (
-				F892D1AD2334CC69003D0479 /* MessageService.swift */,
-				F892D1AE2334CC69003D0479 /* GroupService.swift */,
+				F8EA3EA3233E14D5009E399F /* carrier */,
 			);
-			name = carrier;
-			path = ../../../../DMASDK/DMASDKV1/Service/carrier;
+			path = Base;
+			sourceTree = "<group>";
+		};
+		F8EA3EA3233E14D5009E399F /* carrier */ = {
+			isa = PBXGroup;
+			children = (
+				F8EA3EA4233E14D5009E399F /* MessageService.swift */,
+				F8EA3EA5233E14D5009E399F /* GroupService.swift */,
+			);
+			path = carrier;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -225,11 +223,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F892D1AA2334CC41003D0479 /* NetworkReachabilityManager.swift in Sources */,
-				F892D1B02334CC69003D0479 /* GroupService.swift in Sources */,
-				F892D1AF2334CC69003D0479 /* MessageService.swift in Sources */,
-				F892D1AB2334CC41003D0479 /* MessageBase.swift in Sources */,
-				F892D1A92334CC41003D0479 /* GroupHelper.swift in Sources */,
+				F8EA3EA0233E14BF009E399F /* NetworkReachabilityManager.swift in Sources */,
+				F8EA3EA7233E14D5009E399F /* GroupService.swift in Sources */,
+				F8EA3EA6233E14D5009E399F /* MessageService.swift in Sources */,
+				F8EA3EA1233E14BF009E399F /* MessageBase.swift in Sources */,
+				F8EA3E9F233E14BF009E399F /* GroupHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
