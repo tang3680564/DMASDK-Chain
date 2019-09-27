@@ -11,6 +11,6 @@ Pod::Spec.new do |s|
   s.swift_version             = '5.0'
 
   # 依赖库
-  s.dependency 'Alamofire'
-  s.dependency 'HandyJSON'
+  s.dependency 'Alamofire', '~> 4.7'
+  s.dependency 'HandyJSON', '~> 5.0.0'
 end 
