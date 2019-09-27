@@ -1,0 +1,11 @@
+framework module DMASDK_Message {
+  umbrella header "DMASDK_Message.h"
+
+  export *
+  module * { export * }
+}
+
+module DMASDK_Message.Swift {
+    header "DMASDK_Message-Swift.h"
+    requires objc
+}
