@@ -34,6 +34,8 @@
 		F80A438C233F0CF500831162 /* MerchantService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80A4389233F0CF500831162 /* MerchantService.swift */; };
 		F80A438D233F0CF500831162 /* PledgeActivityService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80A438A233F0CF500831162 /* PledgeActivityService.swift */; };
 		F80A4423233F590D00831162 /* DMASDK_Wallet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F80A4422233F590D00831162 /* DMASDK_Wallet.framework */; };
+		F80A4426233F5A9400831162 /* ElastosSdkKeypair.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F80A4424233F5A9400831162 /* ElastosSdkKeypair.framework */; };
+		F80A4427233F5A9400831162 /* ElastosSdkWallet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F80A4425233F5A9400831162 /* ElastosSdkWallet.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -68,6 +70,8 @@
 		F80A4389233F0CF500831162 /* MerchantService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MerchantService.swift; sourceTree = "<group>"; };
 		F80A438A233F0CF500831162 /* PledgeActivityService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PledgeActivityService.swift; sourceTree = "<group>"; };
 		F80A4422233F590D00831162 /* DMASDK_Wallet.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = DMASDK_Wallet.framework; sourceTree = "<group>"; };
+		F80A4424233F5A9400831162 /* ElastosSdkKeypair.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ElastosSdkKeypair.framework; sourceTree = "<group>"; };
+		F80A4425233F5A9400831162 /* ElastosSdkWallet.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ElastosSdkWallet.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +79,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F80A4426233F5A9400831162 /* ElastosSdkKeypair.framework in Frameworks */,
+				F80A4427233F5A9400831162 /* ElastosSdkWallet.framework in Frameworks */,
 				F80A4423233F590D00831162 /* DMASDK_Wallet.framework in Frameworks */,
 				71B2B47BC626ACBE76A22652 /* Pods_DMASDK_Asset.framework in Frameworks */,
 			);
@@ -95,6 +101,8 @@
 		B80C8FA5988C59716DA41901 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				F80A4424233F5A9400831162 /* ElastosSdkKeypair.framework */,
+				F80A4425233F5A9400831162 /* ElastosSdkWallet.framework */,
 				F80A4422233F590D00831162 /* DMASDK_Wallet.framework */,
 				A47B8FD3BB0EE6F9596EDB0B /* Pods_DMASDK_Asset.framework */,
 			);
