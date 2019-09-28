@@ -9,7 +9,7 @@
 import UIKit
 import BigInt
 import web3swift
-
+import starrymediaDMA_Util
 class ChargeActivityContract : NSObject{
     
     let abi = "ETHChargeActivity"

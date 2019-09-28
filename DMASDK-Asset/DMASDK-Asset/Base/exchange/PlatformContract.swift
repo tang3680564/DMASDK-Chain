@@ -9,6 +9,7 @@
 import UIKit
 import BigInt
 import web3swift
+import starrymediaDMA_Util
 class PlatformContract: NSObject {
     let abi = "ETHPlatform"
     

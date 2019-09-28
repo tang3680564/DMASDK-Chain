@@ -9,6 +9,7 @@
 import UIKit
 import BigInt
 import web3swift
+import starrymediaDMA_Util
 class TokenContract: NSObject {
     let abi = "TokenDMA"
 

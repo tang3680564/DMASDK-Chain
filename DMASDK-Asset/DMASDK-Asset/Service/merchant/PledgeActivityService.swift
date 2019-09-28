@@ -10,6 +10,8 @@ import Foundation
 import Alamofire
 import BigInt
 import web3swift
+import starrymediaDMA_Util
+import DMASDK_Wallet
 
 public class PledgeActivityService : NSObject{
     
