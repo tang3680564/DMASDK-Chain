@@ -9,7 +9,7 @@
 import UIKit
 import web3swift
 import BigInt
-
+import starrymediaDMA_Util
 
 class EthWallet: NSObject {
 //    let url:String = "http://192.168.1.104:8545"

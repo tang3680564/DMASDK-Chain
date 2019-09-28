@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		D143B7C479509F8D43289E20 /* Pods_DMASDK_Wallet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8163CA9826090DC3A51C5FD5 /* Pods_DMASDK_Wallet.framework */; };
+		F80A4417233F28A300831162 /* ContractMethodHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80A4416233F28A300831162 /* ContractMethodHelper.swift */; };
+		F80A4420233F28F200831162 /* EthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80A441E233F28F200831162 /* EthService.swift */; };
+		F80A4421233F28F200831162 /* ElaService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80A441F233F28F200831162 /* ElaService.swift */; };
 		F892D1C02334D530003D0479 /* DMASDK_Wallet.h in Headers */ = {isa = PBXBuildFile; fileRef = F892D1BE2334D530003D0479 /* DMASDK_Wallet.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F892D1C82334D9BE003D0479 /* ElastosSdkWallet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F892D1C62334D9BE003D0479 /* ElastosSdkWallet.framework */; };
 		F892D1C92334D9BE003D0479 /* ElastosSdkKeypair.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F892D1C72334D9BE003D0479 /* ElastosSdkKeypair.framework */; };
@@ -19,6 +22,9 @@
 		39A858FA976CE46A0C68685E /* Pods-DMASDK-Wallet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DMASDK-Wallet.release.xcconfig"; path = "Pods/Target Support Files/Pods-DMASDK-Wallet/Pods-DMASDK-Wallet.release.xcconfig"; sourceTree = "<group>"; };
 		8163CA9826090DC3A51C5FD5 /* Pods_DMASDK_Wallet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DMASDK_Wallet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AABF96102E9E1A6C1EE0C1BF /* Pods-DMASDK-Wallet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DMASDK-Wallet.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DMASDK-Wallet/Pods-DMASDK-Wallet.debug.xcconfig"; sourceTree = "<group>"; };
+		F80A4416233F28A300831162 /* ContractMethodHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContractMethodHelper.swift; sourceTree = "<group>"; };
+		F80A441E233F28F200831162 /* EthService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EthService.swift; sourceTree = "<group>"; };
+		F80A441F233F28F200831162 /* ElaService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ElaService.swift; sourceTree = "<group>"; };
 		F892D1BB2334D530003D0479 /* DMASDK_Wallet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DMASDK_Wallet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F892D1BE2334D530003D0479 /* DMASDK_Wallet.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMASDK_Wallet.h; sourceTree = "<group>"; };
 		F892D1BF2334D530003D0479 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -57,6 +63,15 @@
 				39A858FA976CE46A0C68685E /* Pods-DMASDK-Wallet.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		F80A441D233F28F200831162 /* wallet */ = {
+			isa = PBXGroup;
+			children = (
+				F80A441E233F28F200831162 /* EthService.swift */,
+				F80A441F233F28F200831162 /* ElaService.swift */,
+			);
+			path = wallet;
 			sourceTree = "<group>";
 		};
 		F892D1B12334D530003D0479 = {
@@ -101,6 +116,7 @@
 		F892D1CB2334DA64003D0479 /* Service */ = {
 			isa = PBXGroup;
 			children = (
+				F80A441D233F28F200831162 /* wallet */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -110,6 +126,7 @@
 			children = (
 				F892D1CD2334DA6E003D0479 /* EthWallet.swift */,
 				F892D1CE2334DA6E003D0479 /* ElaWallet.swift */,
+				F80A4416233F28A300831162 /* ContractMethodHelper.swift */,
 			);
 			path = wallet;
 			sourceTree = "<group>";
@@ -215,7 +232,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F892D1CF2334DA6E003D0479 /* EthWallet.swift in Sources */,
+				F80A4420233F28F200831162 /* EthService.swift in Sources */,
+				F80A4417233F28A300831162 /* ContractMethodHelper.swift in Sources */,
 				F892D1D02334DA6E003D0479 /* ElaWallet.swift in Sources */,
+				F80A4421233F28F200831162 /* ElaService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

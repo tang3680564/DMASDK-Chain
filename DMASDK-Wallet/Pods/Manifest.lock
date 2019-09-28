@@ -3,9 +3,6 @@ PODS:
   - BigInt (3.1.0):
     - SipHash (~> 1.2)
   - CryptoSwift (0.15.0)
-  - DMA-Util (1.0.0):
-    - Alamofire
-    - HandyJSON
   - HandyJSON (5.0.0)
   - PromiseKit (6.10.0):
     - PromiseKit/CorePromise (= 6.10.0)
@@ -21,6 +18,9 @@ PODS:
     - CryptoSwift (~> 0.11)
   - secp256k1_swift (1.0.3)
   - SipHash (1.2.2)
+  - starrymediaDMA-Util (1.0.2):
+    - Alamofire (~> 4.7)
+    - HandyJSON (~> 5.0.0)
   - SwiftRLP (1.0.1):
     - BigInt (~> 3.1)
   - web3swift (1.1.10):
@@ -34,7 +34,7 @@ PODS:
 
 DEPENDENCIES:
   - Alamofire (~> 4.7)
-  - DMA-Util
+  - starrymediaDMA-Util
   - web3swift (~> 1.1.10)
 
 SPEC REPOS:
@@ -50,23 +50,23 @@ SPEC REPOS:
     - SwiftRLP
     - web3swift
   trunk:
-    - DMA-Util
     - HandyJSON
+    - starrymediaDMA-Util
 
 SPEC CHECKSUMS:
   Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
   BigInt: 76b5dfdfa3e2e478d4ffdf161aeede5502e2742f
   CryptoSwift: 769f58a9e89f64e8796c2e59ce5f002dc81a2438
-  DMA-Util: e0f641ccb9c6ea1b2bdbe402bac18116cc3daedf
   HandyJSON: 992f2d661716d6a91de82d0056927bc7813b5770
   PromiseKit: 1fdaeb6c0a94a5114fcb814ff3d772b86886ad4e
   Result: bd966fac789cc6c1563440b348ab2598cc24d5c7
   scrypt: 3fe5b1a3b0976f97cd87488673a8f7c65708cc84
   secp256k1_swift: 4fc5c4b2d2c6d21ee8ccb868cdc92da12f38bed9
   SipHash: fad90a4683e420c52ef28063063dbbce248ea6d4
+  starrymediaDMA-Util: b7609b8e5f2e0d1da863355299409245cbdb9a13
   SwiftRLP: 9de2c9512a9a6bf0909cd84cc143a7ff1aff7820
   web3swift: 843dd5295d2ae755e6f80e9e0bdabe2868a5c7d8
 
-PODFILE CHECKSUM: ffe4feaef5884fe93c41ca7e1d29e261d5307707
+PODFILE CHECKSUM: 68cf79ce43505ef56746f77c90c458a92be36548
 
 COCOAPODS: 1.8.0

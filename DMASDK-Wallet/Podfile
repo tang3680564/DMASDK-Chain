@@ -7,6 +7,6 @@ use_frameworks!
 target 'DMASDK-Wallet' do
     pod 'web3swift', '~>1.1.10'
     pod 'Alamofire', '~> 4.7'
-    pod 'DMA-Util'
+    pod 'starrymediaDMA-Util'
 end
 

@@ -14,6 +14,7 @@ import ElastosSdkKeypair
 import Alamofire
 import HandyJSON
 import ElastosSdkWallet
+import starrymediaDMA_Util
 
 public typealias ElaWalletSuccess = (String) -> ()
 class ElaWalletRsp: HandyJSON {
