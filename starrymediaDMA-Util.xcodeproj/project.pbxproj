@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		29BD71547AFA5780D87C119E /* Pods_starrymediaDMA_Util.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 595F0DF3360C8160028CFA15 /* Pods_starrymediaDMA_Util.framework */; };
+		F80A4428233F5B2000831162 /* MerchantServiceConfig.swift in Headers */ = {isa = PBXBuildFile; fileRef = F892D1672334B83B003D0479 /* MerchantServiceConfig.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		F80A4429233F5B2000831162 /* PaymentConfig.swift in Headers */ = {isa = PBXBuildFile; fileRef = F892D1682334B83B003D0479 /* PaymentConfig.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		F80A442A233F5B2000831162 /* ErrorCode.swift in Headers */ = {isa = PBXBuildFile; fileRef = F892D1692334B83B003D0479 /* ErrorCode.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		F80A442B233F5B2000831162 /* DMAEnum.swift in Headers */ = {isa = PBXBuildFile; fileRef = F892D16A2334B83B003D0479 /* DMAEnum.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		F80A442C233F5B2000831162 /* DMAHttpUtil.swift in Headers */ = {isa = PBXBuildFile; fileRef = F892D1702334B939003D0479 /* DMAHttpUtil.swift */; settings = {ATTRIBUTES = (Public, ); }; };
+		F80A442D233F5B2000831162 /* DMACommon.swift in Headers */ = {isa = PBXBuildFile; fileRef = F892D1632334B6DD003D0479 /* DMACommon.swift */; settings = {ATTRIBUTES = (Public, ); }; };
 		F892D15B2334A2F6003D0479 /* starrymediaDMA_Util.h in Headers */ = {isa = PBXBuildFile; fileRef = F892D1592334A2F6003D0479 /* starrymediaDMA_Util.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F892D1642334B6DD003D0479 /* DMACommon.swift in Sources */ = {isa = PBXBuildFile; fileRef = F892D1632334B6DD003D0479 /* DMACommon.swift */; };
 		F892D16B2334B83B003D0479 /* MerchantServiceConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = F892D1672334B83B003D0479 /* MerchantServiceConfig.swift */; };
@@ -134,6 +140,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				F892D15B2334A2F6003D0479 /* starrymediaDMA_Util.h in Headers */,
+				F80A4428233F5B2000831162 /* MerchantServiceConfig.swift in Headers */,
+				F80A4429233F5B2000831162 /* PaymentConfig.swift in Headers */,
+				F80A442A233F5B2000831162 /* ErrorCode.swift in Headers */,
+				F80A442B233F5B2000831162 /* DMAEnum.swift in Headers */,
+				F80A442C233F5B2000831162 /* DMAHttpUtil.swift in Headers */,
+				F80A442D233F5B2000831162 /* DMACommon.swift in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
