@@ -1,0 +1,559 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F80A43CB233F123800831162 /* DMASDK_passport.h in Headers */ = {isa = PBXBuildFile; fileRef = F80A43C9233F123800831162 /* DMASDK_passport.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F80A43D5233F126100831162 /* ElaDID.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80A43D4233F126000831162 /* ElaDID.swift */; };
+		F80A43F1233F23FA00831162 /* RechargeStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80A43D7233F23F900831162 /* RechargeStatus.swift */; };
+		F80A43F2233F23FA00831162 /* PaymentService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80A43D8233F23F900831162 /* PaymentService.swift */; };
+		F80A43F3233F23FA00831162 /* PayMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80A43D9233F23F900831162 /* PayMethod.swift */; };
+		F80A43F4233F23FA00831162 /* Direction.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80A43DA233F23F900831162 /* Direction.swift */; };
+		F80A43F5233F23FA00831162 /* RequestBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80A43DD233F23F900831162 /* RequestBody.swift */; };
+		F80A43F6233F23FA00831162 /* ParserResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80A43DF233F23F900831162 /* ParserResult.swift */; };
+		F80A43F7233F23FA00831162 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80A43E0233F23F900831162 /* Parser.swift */; };
+		F80A43F8233F23FA00831162 /* PulseService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80A43E2233F23F900831162 /* PulseService.swift */; };
+		F80A43F9233F23FA00831162 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80A43E4233F23FA00831162 /* DataService.swift */; };
+		F80A43FA233F23FA00831162 /* ResponseBody.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80A43E5233F23FA00831162 /* ResponseBody.swift */; };
+		F80A43FB233F23FA00831162 /* DynamicData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80A43E7233F23FA00831162 /* DynamicData.swift */; };
+		F80A43FC233F23FA00831162 /* Tags.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80A43E8233F23FA00831162 /* Tags.swift */; };
+		F80A43FD233F23FA00831162 /* Pulse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80A43E9233F23FA00831162 /* Pulse.swift */; };
+		F80A43FE233F23FA00831162 /* AbstractService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80A43EA233F23FA00831162 /* AbstractService.swift */; };
+		F80A43FF233F23FA00831162 /* ElaDIDService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80A43EC233F23FA00831162 /* ElaDIDService.swift */; };
+		F80A4400233F23FA00831162 /* DefaultEncipher.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80A43EE233F23FA00831162 /* DefaultEncipher.swift */; };
+		F80A4401233F23FA00831162 /* Encipher.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80A43EF233F23FA00831162 /* Encipher.swift */; };
+		F80A4402233F23FA00831162 /* AppIdEncipher.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80A43F0233F23FA00831162 /* AppIdEncipher.swift */; };
+		F80A4409233F242A00831162 /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80A4405233F242A00831162 /* Profile.swift */; };
+		F80A440A233F242A00831162 /* Propertys.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80A4406233F242A00831162 /* Propertys.swift */; };
+		F80A440B233F242A00831162 /* ProfileService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80A4408233F242A00831162 /* ProfileService.swift */; };
+		F80A440F233F244300831162 /* AppraiserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80A440D233F244300831162 /* AppraiserService.swift */; };
+		F80A4410233F244300831162 /* Appraiser.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80A440E233F244300831162 /* Appraiser.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F80A43C6233F123800831162 /* DMASDK_passport.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DMASDK_passport.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F80A43C9233F123800831162 /* DMASDK_passport.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMASDK_passport.h; sourceTree = "<group>"; };
+		F80A43CA233F123800831162 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F80A43D4233F126000831162 /* ElaDID.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ElaDID.swift; sourceTree = "<group>"; };
+		F80A43D7233F23F900831162 /* RechargeStatus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RechargeStatus.swift; sourceTree = "<group>"; };
+		F80A43D8233F23F900831162 /* PaymentService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentService.swift; sourceTree = "<group>"; };
+		F80A43D9233F23F900831162 /* PayMethod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PayMethod.swift; sourceTree = "<group>"; };
+		F80A43DA233F23F900831162 /* Direction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Direction.swift; sourceTree = "<group>"; };
+		F80A43DD233F23F900831162 /* RequestBody.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestBody.swift; sourceTree = "<group>"; };
+		F80A43DF233F23F900831162 /* ParserResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParserResult.swift; sourceTree = "<group>"; };
+		F80A43E0233F23F900831162 /* Parser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
+		F80A43E2233F23F900831162 /* PulseService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PulseService.swift; sourceTree = "<group>"; };
+		F80A43E4233F23FA00831162 /* DataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		F80A43E5233F23FA00831162 /* ResponseBody.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseBody.swift; sourceTree = "<group>"; };
+		F80A43E7233F23FA00831162 /* DynamicData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DynamicData.swift; sourceTree = "<group>"; };
+		F80A43E8233F23FA00831162 /* Tags.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tags.swift; sourceTree = "<group>"; };
+		F80A43E9233F23FA00831162 /* Pulse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pulse.swift; sourceTree = "<group>"; };
+		F80A43EA233F23FA00831162 /* AbstractService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbstractService.swift; sourceTree = "<group>"; };
+		F80A43EC233F23FA00831162 /* ElaDIDService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ElaDIDService.swift; sourceTree = "<group>"; };
+		F80A43EE233F23FA00831162 /* DefaultEncipher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultEncipher.swift; sourceTree = "<group>"; };
+		F80A43EF233F23FA00831162 /* Encipher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Encipher.swift; sourceTree = "<group>"; };
+		F80A43F0233F23FA00831162 /* AppIdEncipher.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppIdEncipher.swift; sourceTree = "<group>"; };
+		F80A4405233F242A00831162 /* Profile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
+		F80A4406233F242A00831162 /* Propertys.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Propertys.swift; sourceTree = "<group>"; };
+		F80A4408233F242A00831162 /* ProfileService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileService.swift; sourceTree = "<group>"; };
+		F80A440D233F244300831162 /* AppraiserService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppraiserService.swift; sourceTree = "<group>"; };
+		F80A440E233F244300831162 /* Appraiser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Appraiser.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F80A43C3233F123800831162 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F80A43BC233F123800831162 = {
+			isa = PBXGroup;
+			children = (
+				F80A43C8233F123800831162 /* DMASDK-passport */,
+				F80A43C7233F123800831162 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F80A43C7233F123800831162 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F80A43C6233F123800831162 /* DMASDK_passport.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F80A43C8233F123800831162 /* DMASDK-passport */ = {
+			isa = PBXGroup;
+			children = (
+				F80A43D2233F124C00831162 /* Service */,
+				F80A43D1233F124700831162 /* Base */,
+				F80A43C9233F123800831162 /* DMASDK_passport.h */,
+				F80A43CA233F123800831162 /* Info.plist */,
+			);
+			path = "DMASDK-passport";
+			sourceTree = "<group>";
+		};
+		F80A43D1233F124700831162 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				F80A43D3233F126000831162 /* passport */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		F80A43D2233F124C00831162 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				F80A440C233F244300831162 /* appraiser */,
+				F80A43E3233F23FA00831162 /* dataservice */,
+				F80A43EB233F23FA00831162 /* passport */,
+				F80A43D6233F23F900831162 /* payment */,
+				F80A43DB233F23F900831162 /* pulse */,
+				F80A4403233F242A00831162 /* profile */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		F80A43D3233F126000831162 /* passport */ = {
+			isa = PBXGroup;
+			children = (
+				F80A43D4233F126000831162 /* ElaDID.swift */,
+			);
+			path = passport;
+			sourceTree = "<group>";
+		};
+		F80A43D6233F23F900831162 /* payment */ = {
+			isa = PBXGroup;
+			children = (
+				F80A43D7233F23F900831162 /* RechargeStatus.swift */,
+				F80A43D8233F23F900831162 /* PaymentService.swift */,
+				F80A43D9233F23F900831162 /* PayMethod.swift */,
+				F80A43DA233F23F900831162 /* Direction.swift */,
+			);
+			path = payment;
+			sourceTree = "<group>";
+		};
+		F80A43DB233F23F900831162 /* pulse */ = {
+			isa = PBXGroup;
+			children = (
+				F80A43DC233F23F900831162 /* entity */,
+				F80A43DE233F23F900831162 /* parser */,
+				F80A43E1233F23F900831162 /* service */,
+			);
+			path = pulse;
+			sourceTree = "<group>";
+		};
+		F80A43DC233F23F900831162 /* entity */ = {
+			isa = PBXGroup;
+			children = (
+				F80A43DD233F23F900831162 /* RequestBody.swift */,
+			);
+			path = entity;
+			sourceTree = "<group>";
+		};
+		F80A43DE233F23F900831162 /* parser */ = {
+			isa = PBXGroup;
+			children = (
+				F80A43DF233F23F900831162 /* ParserResult.swift */,
+				F80A43E0233F23F900831162 /* Parser.swift */,
+			);
+			path = parser;
+			sourceTree = "<group>";
+		};
+		F80A43E1233F23F900831162 /* service */ = {
+			isa = PBXGroup;
+			children = (
+				F80A43E2233F23F900831162 /* PulseService.swift */,
+			);
+			path = service;
+			sourceTree = "<group>";
+		};
+		F80A43E3233F23FA00831162 /* dataservice */ = {
+			isa = PBXGroup;
+			children = (
+				F80A43E4233F23FA00831162 /* DataService.swift */,
+				F80A43E5233F23FA00831162 /* ResponseBody.swift */,
+				F80A43E6233F23FA00831162 /* entity */,
+				F80A43EA233F23FA00831162 /* AbstractService.swift */,
+			);
+			path = dataservice;
+			sourceTree = "<group>";
+		};
+		F80A43E6233F23FA00831162 /* entity */ = {
+			isa = PBXGroup;
+			children = (
+				F80A43E7233F23FA00831162 /* DynamicData.swift */,
+				F80A43E8233F23FA00831162 /* Tags.swift */,
+				F80A43E9233F23FA00831162 /* Pulse.swift */,
+			);
+			path = entity;
+			sourceTree = "<group>";
+		};
+		F80A43EB233F23FA00831162 /* passport */ = {
+			isa = PBXGroup;
+			children = (
+				F80A43EC233F23FA00831162 /* ElaDIDService.swift */,
+				F80A43ED233F23FA00831162 /* encipher */,
+			);
+			path = passport;
+			sourceTree = "<group>";
+		};
+		F80A43ED233F23FA00831162 /* encipher */ = {
+			isa = PBXGroup;
+			children = (
+				F80A43EE233F23FA00831162 /* DefaultEncipher.swift */,
+				F80A43EF233F23FA00831162 /* Encipher.swift */,
+				F80A43F0233F23FA00831162 /* AppIdEncipher.swift */,
+			);
+			path = encipher;
+			sourceTree = "<group>";
+		};
+		F80A4403233F242A00831162 /* profile */ = {
+			isa = PBXGroup;
+			children = (
+				F80A4404233F242A00831162 /* entity */,
+				F80A4407233F242A00831162 /* service */,
+			);
+			path = profile;
+			sourceTree = "<group>";
+		};
+		F80A4404233F242A00831162 /* entity */ = {
+			isa = PBXGroup;
+			children = (
+				F80A4405233F242A00831162 /* Profile.swift */,
+				F80A4406233F242A00831162 /* Propertys.swift */,
+			);
+			path = entity;
+			sourceTree = "<group>";
+		};
+		F80A4407233F242A00831162 /* service */ = {
+			isa = PBXGroup;
+			children = (
+				F80A4408233F242A00831162 /* ProfileService.swift */,
+			);
+			path = service;
+			sourceTree = "<group>";
+		};
+		F80A440C233F244300831162 /* appraiser */ = {
+			isa = PBXGroup;
+			children = (
+				F80A440D233F244300831162 /* AppraiserService.swift */,
+				F80A440E233F244300831162 /* Appraiser.swift */,
+			);
+			path = appraiser;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		F80A43C1233F123800831162 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F80A43CB233F123800831162 /* DMASDK_passport.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		F80A43C5233F123800831162 /* DMASDK-passport */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F80A43CE233F123800831162 /* Build configuration list for PBXNativeTarget "DMASDK-passport" */;
+			buildPhases = (
+				F80A43C1233F123800831162 /* Headers */,
+				F80A43C2233F123800831162 /* Sources */,
+				F80A43C3233F123800831162 /* Frameworks */,
+				F80A43C4233F123800831162 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DMASDK-passport";
+			productName = "DMASDK-passport";
+			productReference = F80A43C6233F123800831162 /* DMASDK_passport.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F80A43BD233F123800831162 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = starrymedia;
+				TargetAttributes = {
+					F80A43C5233F123800831162 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = F80A43C0233F123800831162 /* Build configuration list for PBXProject "DMASDK-passport" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F80A43BC233F123800831162;
+			productRefGroup = F80A43C7233F123800831162 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F80A43C5233F123800831162 /* DMASDK-passport */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F80A43C4233F123800831162 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F80A43C2233F123800831162 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F80A440A233F242A00831162 /* Propertys.swift in Sources */,
+				F80A43F1233F23FA00831162 /* RechargeStatus.swift in Sources */,
+				F80A4409233F242A00831162 /* Profile.swift in Sources */,
+				F80A43F3233F23FA00831162 /* PayMethod.swift in Sources */,
+				F80A43FF233F23FA00831162 /* ElaDIDService.swift in Sources */,
+				F80A43F2233F23FA00831162 /* PaymentService.swift in Sources */,
+				F80A43FB233F23FA00831162 /* DynamicData.swift in Sources */,
+				F80A43F4233F23FA00831162 /* Direction.swift in Sources */,
+				F80A43FC233F23FA00831162 /* Tags.swift in Sources */,
+				F80A43F7233F23FA00831162 /* Parser.swift in Sources */,
+				F80A43D5233F126100831162 /* ElaDID.swift in Sources */,
+				F80A43F5233F23FA00831162 /* RequestBody.swift in Sources */,
+				F80A43F6233F23FA00831162 /* ParserResult.swift in Sources */,
+				F80A4401233F23FA00831162 /* Encipher.swift in Sources */,
+				F80A43F8233F23FA00831162 /* PulseService.swift in Sources */,
+				F80A43FE233F23FA00831162 /* AbstractService.swift in Sources */,
+				F80A4400233F23FA00831162 /* DefaultEncipher.swift in Sources */,
+				F80A4410233F244300831162 /* Appraiser.swift in Sources */,
+				F80A4402233F23FA00831162 /* AppIdEncipher.swift in Sources */,
+				F80A43FD233F23FA00831162 /* Pulse.swift in Sources */,
+				F80A440F233F244300831162 /* AppraiserService.swift in Sources */,
+				F80A43F9233F23FA00831162 /* DataService.swift in Sources */,
+				F80A43FA233F23FA00831162 /* ResponseBody.swift in Sources */,
+				F80A440B233F242A00831162 /* ProfileService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F80A43CC233F123800831162 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F80A43CD233F123800831162 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F80A43CF233F123800831162 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 75EYP2YGJW;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "DMASDK-passport/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "starrymedia.DMASDK-passport";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F80A43D0233F123800831162 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 75EYP2YGJW;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "DMASDK-passport/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "starrymedia.DMASDK-passport";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F80A43C0233F123800831162 /* Build configuration list for PBXProject "DMASDK-passport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F80A43CC233F123800831162 /* Debug */,
+				F80A43CD233F123800831162 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F80A43CE233F123800831162 /* Build configuration list for PBXNativeTarget "DMASDK-passport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F80A43CF233F123800831162 /* Debug */,
+				F80A43D0233F123800831162 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F80A43BD233F123800831162 /* Project object */;
+}
