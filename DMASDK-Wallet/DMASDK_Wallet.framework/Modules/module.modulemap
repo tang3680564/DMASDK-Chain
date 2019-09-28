@@ -1,0 +1,11 @@
+framework module DMASDK_Wallet {
+  umbrella header "DMASDK_Wallet.h"
+
+  export *
+  module * { export * }
+}
+
+module DMASDK_Wallet.Swift {
+    header "DMASDK_Wallet-Swift.h"
+    requires objc
+}
