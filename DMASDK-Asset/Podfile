@@ -6,6 +6,6 @@ inhibit_all_warnings!
 
 target 'DMASDK-Asset' do
     pod 'web3swift', '~> 1.1.10'
-    pod ''
+    pod 'starrymediaDMA-Util'
 end
 
