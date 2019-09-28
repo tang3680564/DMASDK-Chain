@@ -1,0 +1,11 @@
+platform :ios, '12.0'
+project 'DMASDK-Asset'
+
+inhibit_all_warnings!
+ use_frameworks!
+
+target 'DMASDK-Asset' do
+    pod 'web3swift', '~> 1.1.10'
+    pod ''
+end
+

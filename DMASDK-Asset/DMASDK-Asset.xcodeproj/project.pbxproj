@@ -1,0 +1,496 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F80A4350233F0C3800831162 /* DMASDK_Asset.h in Headers */ = {isa = PBXBuildFile; fileRef = F80A434E233F0C3800831162 /* DMASDK_Asset.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F80A4363233F0C7900831162 /* ETHChargeActivity.json in Resources */ = {isa = PBXBuildFile; fileRef = F80A4359233F0C7900831162 /* ETHChargeActivity.json */; };
+		F80A4364233F0C7900831162 /* ETHChargeActivityData.json in Resources */ = {isa = PBXBuildFile; fileRef = F80A435A233F0C7900831162 /* ETHChargeActivityData.json */; };
+		F80A4365233F0C7900831162 /* NFTokenDMA.json in Resources */ = {isa = PBXBuildFile; fileRef = F80A435B233F0C7900831162 /* NFTokenDMA.json */; };
+		F80A4366233F0C7900831162 /* ETHTransfer.json in Resources */ = {isa = PBXBuildFile; fileRef = F80A435C233F0C7900831162 /* ETHTransfer.json */; };
+		F80A4367233F0C7900831162 /* ETHPlatformData.json in Resources */ = {isa = PBXBuildFile; fileRef = F80A435D233F0C7900831162 /* ETHPlatformData.json */; };
+		F80A4368233F0C7900831162 /* ETHPlatform.json in Resources */ = {isa = PBXBuildFile; fileRef = F80A435E233F0C7900831162 /* ETHPlatform.json */; };
+		F80A4369233F0C7900831162 /* NFTokenETH.json in Resources */ = {isa = PBXBuildFile; fileRef = F80A435F233F0C7900831162 /* NFTokenETH.json */; };
+		F80A436A233F0C7900831162 /* ETHPledgeActivityData.json in Resources */ = {isa = PBXBuildFile; fileRef = F80A4360233F0C7900831162 /* ETHPledgeActivityData.json */; };
+		F80A436B233F0C7900831162 /* ETHPledgeActivity.json in Resources */ = {isa = PBXBuildFile; fileRef = F80A4361233F0C7900831162 /* ETHPledgeActivity.json */; };
+		F80A436C233F0C7900831162 /* NFTokenETHData.json in Resources */ = {isa = PBXBuildFile; fileRef = F80A4362233F0C7900831162 /* NFTokenETHData.json */; };
+		F80A436F233F0C8E00831162 /* AssetManagement.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80A436E233F0C8E00831162 /* AssetManagement.swift */; };
+		F80A4375233F0C9400831162 /* TokenContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80A4371233F0C9400831162 /* TokenContract.swift */; };
+		F80A4376233F0C9400831162 /* PlatformContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80A4372233F0C9400831162 /* PlatformContract.swift */; };
+		F80A4377233F0C9400831162 /* ChargeActivityContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80A4373233F0C9400831162 /* ChargeActivityContract.swift */; };
+		F80A4378233F0C9400831162 /* PledgeActivityContract.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80A4374233F0C9400831162 /* PledgeActivityContract.swift */; };
+		F80A437D233F0CAF00831162 /* ContractMethodHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80A437A233F0CAF00831162 /* ContractMethodHelper.swift */; };
+		F80A437E233F0CAF00831162 /* DeployHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80A437B233F0CAF00831162 /* DeployHelper.swift */; };
+		F80A437F233F0CAF00831162 /* Web3Util.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80A437C233F0CAF00831162 /* Web3Util.swift */; };
+		F80A4384233F0CBE00831162 /* ETHToken721Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80A4381233F0CBE00831162 /* ETHToken721Service.swift */; };
+		F80A4385233F0CBE00831162 /* AssetManagementService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80A4382233F0CBE00831162 /* AssetManagementService.swift */; };
+		F80A4386233F0CBE00831162 /* ETHToken20Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80A4383233F0CBE00831162 /* ETHToken20Service.swift */; };
+		F80A438B233F0CF500831162 /* ChargeActivityService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80A4388233F0CF500831162 /* ChargeActivityService.swift */; };
+		F80A438C233F0CF500831162 /* MerchantService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80A4389233F0CF500831162 /* MerchantService.swift */; };
+		F80A438D233F0CF500831162 /* PledgeActivityService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F80A438A233F0CF500831162 /* PledgeActivityService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F80A434B233F0C3800831162 /* DMASDK_Asset.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DMASDK_Asset.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F80A434E233F0C3800831162 /* DMASDK_Asset.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMASDK_Asset.h; sourceTree = "<group>"; };
+		F80A434F233F0C3800831162 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F80A4359233F0C7900831162 /* ETHChargeActivity.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ETHChargeActivity.json; sourceTree = "<group>"; };
+		F80A435A233F0C7900831162 /* ETHChargeActivityData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ETHChargeActivityData.json; sourceTree = "<group>"; };
+		F80A435B233F0C7900831162 /* NFTokenDMA.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = NFTokenDMA.json; sourceTree = "<group>"; };
+		F80A435C233F0C7900831162 /* ETHTransfer.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ETHTransfer.json; sourceTree = "<group>"; };
+		F80A435D233F0C7900831162 /* ETHPlatformData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ETHPlatformData.json; sourceTree = "<group>"; };
+		F80A435E233F0C7900831162 /* ETHPlatform.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ETHPlatform.json; sourceTree = "<group>"; };
+		F80A435F233F0C7900831162 /* NFTokenETH.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = NFTokenETH.json; sourceTree = "<group>"; };
+		F80A4360233F0C7900831162 /* ETHPledgeActivityData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ETHPledgeActivityData.json; sourceTree = "<group>"; };
+		F80A4361233F0C7900831162 /* ETHPledgeActivity.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = ETHPledgeActivity.json; sourceTree = "<group>"; };
+		F80A4362233F0C7900831162 /* NFTokenETHData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = NFTokenETHData.json; sourceTree = "<group>"; };
+		F80A436E233F0C8E00831162 /* AssetManagement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssetManagement.swift; sourceTree = "<group>"; };
+		F80A4371233F0C9400831162 /* TokenContract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TokenContract.swift; sourceTree = "<group>"; };
+		F80A4372233F0C9400831162 /* PlatformContract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PlatformContract.swift; sourceTree = "<group>"; };
+		F80A4373233F0C9400831162 /* ChargeActivityContract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChargeActivityContract.swift; sourceTree = "<group>"; };
+		F80A4374233F0C9400831162 /* PledgeActivityContract.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PledgeActivityContract.swift; sourceTree = "<group>"; };
+		F80A437A233F0CAF00831162 /* ContractMethodHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContractMethodHelper.swift; sourceTree = "<group>"; };
+		F80A437B233F0CAF00831162 /* DeployHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DeployHelper.swift; sourceTree = "<group>"; };
+		F80A437C233F0CAF00831162 /* Web3Util.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Web3Util.swift; sourceTree = "<group>"; };
+		F80A4381233F0CBE00831162 /* ETHToken721Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ETHToken721Service.swift; sourceTree = "<group>"; };
+		F80A4382233F0CBE00831162 /* AssetManagementService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AssetManagementService.swift; sourceTree = "<group>"; };
+		F80A4383233F0CBE00831162 /* ETHToken20Service.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ETHToken20Service.swift; sourceTree = "<group>"; };
+		F80A4388233F0CF500831162 /* ChargeActivityService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChargeActivityService.swift; sourceTree = "<group>"; };
+		F80A4389233F0CF500831162 /* MerchantService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MerchantService.swift; sourceTree = "<group>"; };
+		F80A438A233F0CF500831162 /* PledgeActivityService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PledgeActivityService.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F80A4348233F0C3800831162 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F80A4341233F0C3800831162 = {
+			isa = PBXGroup;
+			children = (
+				F80A434D233F0C3800831162 /* DMASDK-Asset */,
+				F80A434C233F0C3800831162 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F80A434C233F0C3800831162 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F80A434B233F0C3800831162 /* DMASDK_Asset.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F80A434D233F0C3800831162 /* DMASDK-Asset */ = {
+			isa = PBXGroup;
+			children = (
+				F80A4357233F0C6800831162 /* Service */,
+				F80A4356233F0C6300831162 /* Base */,
+				F80A434E233F0C3800831162 /* DMASDK_Asset.h */,
+				F80A434F233F0C3800831162 /* Info.plist */,
+			);
+			path = "DMASDK-Asset";
+			sourceTree = "<group>";
+		};
+		F80A4356233F0C6300831162 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				F80A4379233F0C9A00831162 /* util */,
+				F80A4370233F0C9400831162 /* exchange */,
+				F80A436D233F0C8E00831162 /* asset */,
+				F80A4358233F0C7900831162 /* abi */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		F80A4357233F0C6800831162 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				F80A4387233F0CF500831162 /* merchant */,
+				F80A4380233F0CBE00831162 /* asset */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		F80A4358233F0C7900831162 /* abi */ = {
+			isa = PBXGroup;
+			children = (
+				F80A4359233F0C7900831162 /* ETHChargeActivity.json */,
+				F80A435A233F0C7900831162 /* ETHChargeActivityData.json */,
+				F80A435B233F0C7900831162 /* NFTokenDMA.json */,
+				F80A435C233F0C7900831162 /* ETHTransfer.json */,
+				F80A435D233F0C7900831162 /* ETHPlatformData.json */,
+				F80A435E233F0C7900831162 /* ETHPlatform.json */,
+				F80A435F233F0C7900831162 /* NFTokenETH.json */,
+				F80A4360233F0C7900831162 /* ETHPledgeActivityData.json */,
+				F80A4361233F0C7900831162 /* ETHPledgeActivity.json */,
+				F80A4362233F0C7900831162 /* NFTokenETHData.json */,
+			);
+			path = abi;
+			sourceTree = "<group>";
+		};
+		F80A436D233F0C8E00831162 /* asset */ = {
+			isa = PBXGroup;
+			children = (
+				F80A436E233F0C8E00831162 /* AssetManagement.swift */,
+			);
+			path = asset;
+			sourceTree = "<group>";
+		};
+		F80A4370233F0C9400831162 /* exchange */ = {
+			isa = PBXGroup;
+			children = (
+				F80A4371233F0C9400831162 /* TokenContract.swift */,
+				F80A4372233F0C9400831162 /* PlatformContract.swift */,
+				F80A4373233F0C9400831162 /* ChargeActivityContract.swift */,
+				F80A4374233F0C9400831162 /* PledgeActivityContract.swift */,
+			);
+			path = exchange;
+			sourceTree = "<group>";
+		};
+		F80A4379233F0C9A00831162 /* util */ = {
+			isa = PBXGroup;
+			children = (
+				F80A437B233F0CAF00831162 /* DeployHelper.swift */,
+				F80A437A233F0CAF00831162 /* ContractMethodHelper.swift */,
+				F80A437C233F0CAF00831162 /* Web3Util.swift */,
+			);
+			path = util;
+			sourceTree = "<group>";
+		};
+		F80A4380233F0CBE00831162 /* asset */ = {
+			isa = PBXGroup;
+			children = (
+				F80A4381233F0CBE00831162 /* ETHToken721Service.swift */,
+				F80A4382233F0CBE00831162 /* AssetManagementService.swift */,
+				F80A4383233F0CBE00831162 /* ETHToken20Service.swift */,
+			);
+			name = asset;
+			path = ../../../../DMASDK/DMASDKV1/Service/asset;
+			sourceTree = "<group>";
+		};
+		F80A4387233F0CF500831162 /* merchant */ = {
+			isa = PBXGroup;
+			children = (
+				F80A4388233F0CF500831162 /* ChargeActivityService.swift */,
+				F80A4389233F0CF500831162 /* MerchantService.swift */,
+				F80A438A233F0CF500831162 /* PledgeActivityService.swift */,
+			);
+			path = merchant;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		F80A4346233F0C3800831162 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F80A4350233F0C3800831162 /* DMASDK_Asset.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		F80A434A233F0C3800831162 /* DMASDK-Asset */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F80A4353233F0C3800831162 /* Build configuration list for PBXNativeTarget "DMASDK-Asset" */;
+			buildPhases = (
+				F80A4346233F0C3800831162 /* Headers */,
+				F80A4347233F0C3800831162 /* Sources */,
+				F80A4348233F0C3800831162 /* Frameworks */,
+				F80A4349233F0C3800831162 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DMASDK-Asset";
+			productName = "DMASDK-Asset";
+			productReference = F80A434B233F0C3800831162 /* DMASDK_Asset.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F80A4342233F0C3800831162 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = starrymedia;
+				TargetAttributes = {
+					F80A434A233F0C3800831162 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = F80A4345233F0C3800831162 /* Build configuration list for PBXProject "DMASDK-Asset" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F80A4341233F0C3800831162;
+			productRefGroup = F80A434C233F0C3800831162 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F80A434A233F0C3800831162 /* DMASDK-Asset */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F80A4349233F0C3800831162 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F80A4369233F0C7900831162 /* NFTokenETH.json in Resources */,
+				F80A4365233F0C7900831162 /* NFTokenDMA.json in Resources */,
+				F80A436B233F0C7900831162 /* ETHPledgeActivity.json in Resources */,
+				F80A436C233F0C7900831162 /* NFTokenETHData.json in Resources */,
+				F80A4364233F0C7900831162 /* ETHChargeActivityData.json in Resources */,
+				F80A436A233F0C7900831162 /* ETHPledgeActivityData.json in Resources */,
+				F80A4366233F0C7900831162 /* ETHTransfer.json in Resources */,
+				F80A4367233F0C7900831162 /* ETHPlatformData.json in Resources */,
+				F80A4368233F0C7900831162 /* ETHPlatform.json in Resources */,
+				F80A4363233F0C7900831162 /* ETHChargeActivity.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F80A4347233F0C3800831162 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F80A437F233F0CAF00831162 /* Web3Util.swift in Sources */,
+				F80A438C233F0CF500831162 /* MerchantService.swift in Sources */,
+				F80A4377233F0C9400831162 /* ChargeActivityContract.swift in Sources */,
+				F80A436F233F0C8E00831162 /* AssetManagement.swift in Sources */,
+				F80A4386233F0CBE00831162 /* ETHToken20Service.swift in Sources */,
+				F80A4378233F0C9400831162 /* PledgeActivityContract.swift in Sources */,
+				F80A437E233F0CAF00831162 /* DeployHelper.swift in Sources */,
+				F80A438B233F0CF500831162 /* ChargeActivityService.swift in Sources */,
+				F80A4376233F0C9400831162 /* PlatformContract.swift in Sources */,
+				F80A437D233F0CAF00831162 /* ContractMethodHelper.swift in Sources */,
+				F80A4385233F0CBE00831162 /* AssetManagementService.swift in Sources */,
+				F80A4375233F0C9400831162 /* TokenContract.swift in Sources */,
+				F80A4384233F0CBE00831162 /* ETHToken721Service.swift in Sources */,
+				F80A438D233F0CF500831162 /* PledgeActivityService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F80A4351233F0C3800831162 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F80A4352233F0C3800831162 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F80A4354233F0C3800831162 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 75EYP2YGJW;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "DMASDK-Asset/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "starrymedia.DMASDK-Asset";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F80A4355233F0C3800831162 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 75EYP2YGJW;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "DMASDK-Asset/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "starrymedia.DMASDK-Asset";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F80A4345233F0C3800831162 /* Build configuration list for PBXProject "DMASDK-Asset" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F80A4351233F0C3800831162 /* Debug */,
+				F80A4352233F0C3800831162 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F80A4353233F0C3800831162 /* Build configuration list for PBXNativeTarget "DMASDK-Asset" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F80A4354233F0C3800831162 /* Debug */,
+				F80A4355233F0C3800831162 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F80A4342233F0C3800831162 /* Project object */;
+}
