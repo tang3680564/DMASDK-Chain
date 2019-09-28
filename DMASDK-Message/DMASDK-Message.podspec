@@ -9,8 +9,6 @@ Pod::Spec.new do |s|
   s.platform                  = :ios
   s.ios.deployment_target     = '12.0'
   s.swift_version             = '5.0'
-  
-
-  # 依赖库
+  s.ios.vendored_frameworks  = '*.framework'
   s.dependency 'ElastosCarrierSDK' , '~> 5.3.2'
 end 
