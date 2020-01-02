@@ -1,6 +1,0 @@
-framework module Pods_DMAELASDKTEST {
-  umbrella header "Pods-DMAELASDKTEST-umbrella.h"
-
-  export *
-  module * { export * }
-}
