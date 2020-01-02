@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name                      = 'SwiftGMP'
-  s.version                   = '1.0.7'
+  s.version                   = '1.0.8'
   s.summary                   = 'SwiftGMP Framework'
   s.homepage                  = 'https://github.com/tang3680564/DMASDK-Chain'
   s.license                   = { :type => 'MIT', :file => 'LICENSE' }
