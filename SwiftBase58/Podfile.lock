@@ -1,0 +1,20 @@
+PODS:
+  - SwiftGMP (1.0.7)
+  - SwiftHex (1.0.7)
+
+DEPENDENCIES:
+  - SwiftGMP
+  - SwiftHex
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - SwiftGMP
+    - SwiftHex
+
+SPEC CHECKSUMS:
+  SwiftGMP: 4cca5988071e9d2fe616c87d01164cf48b3dd233
+  SwiftHex: 369a3fc9be10610753da10f519c7b46fb3962fd1
+
+PODFILE CHECKSUM: ba503e31125e8ae1e5a4efbcced8834a7ee39173
+
+COCOAPODS: 1.8.0

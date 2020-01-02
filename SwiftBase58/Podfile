@@ -1,0 +1,12 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '10.0'
+project 'SwiftBase58'
+
+inhibit_all_warnings!
+use_frameworks!
+
+target 'SwiftBase58' do
+   pod 'SwiftHex'
+   pod 'SwiftGMP'
+end
+
