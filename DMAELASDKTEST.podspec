@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name                      = 'starrymediaDMA-ELATEST'
+  s.name                      = 'DMAELASDKTEST'
   s.version                   = '1.0.5'
   s.summary                   = 'starrymediaDMA-ELATEST Framework'
   s.homepage                  = 'https://github.com/tang3680564/DMASDK-Chain'
