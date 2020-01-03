@@ -11,13 +11,13 @@
 		F82A4C5923BEEE470051407A /* IpfsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82A4C4823BEEE470051407A /* IpfsService.swift */; };
 		F82A4C5A23BEEE470051407A /* StorageMedium.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82A4C4923BEEE470051407A /* StorageMedium.swift */; };
 		F82A4C8323BEEE610051407A /* IpfsStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F82A4C6D23BEEE610051407A /* IpfsStorage.swift */; };
-		F82A4C9C23BEEFB90051407A /* SwiftMultihash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F82A4C9523BEEFB80051407A /* SwiftMultihash.framework */; };
-		F82A4C9D23BEEFB90051407A /* SwiftIpfsApi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F82A4C9623BEEFB80051407A /* SwiftIpfsApi.framework */; };
-		F82A4C9E23BEEFB90051407A /* SwiftHex.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F82A4C9723BEEFB80051407A /* SwiftHex.framework */; };
-		F82A4C9F23BEEFB90051407A /* SwiftMultiaddr.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F82A4C9823BEEFB80051407A /* SwiftMultiaddr.framework */; };
-		F82A4CA023BEEFB90051407A /* SwiftGMP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F82A4C9923BEEFB80051407A /* SwiftGMP.framework */; };
-		F82A4CA123BEEFB90051407A /* VarInt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F82A4C9A23BEEFB80051407A /* VarInt.framework */; };
-		F82A4CA223BEEFB90051407A /* SwiftBase58.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F82A4C9B23BEEFB80051407A /* SwiftBase58.framework */; };
+		F82A4D7423BEF56E0051407A /* SwiftIpfsApi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F82A4D6D23BEF56E0051407A /* SwiftIpfsApi.framework */; };
+		F82A4D7523BEF56E0051407A /* SwiftMultihash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F82A4D6E23BEF56E0051407A /* SwiftMultihash.framework */; };
+		F82A4D7623BEF56E0051407A /* SwiftGMP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F82A4D6F23BEF56E0051407A /* SwiftGMP.framework */; };
+		F82A4D7723BEF56E0051407A /* VarInt.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F82A4D7023BEF56E0051407A /* VarInt.framework */; };
+		F82A4D7823BEF56E0051407A /* SwiftMultiaddr.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F82A4D7123BEF56E0051407A /* SwiftMultiaddr.framework */; };
+		F82A4D7923BEF56E0051407A /* SwiftBase58.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F82A4D7223BEF56E0051407A /* SwiftBase58.framework */; };
+		F82A4D7A23BEF56E0051407A /* SwiftHex.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F82A4D7323BEF56E0051407A /* SwiftHex.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,13 +27,13 @@
 		F82A4C4823BEEE470051407A /* IpfsService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IpfsService.swift; sourceTree = "<group>"; };
 		F82A4C4923BEEE470051407A /* StorageMedium.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StorageMedium.swift; sourceTree = "<group>"; };
 		F82A4C6D23BEEE610051407A /* IpfsStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IpfsStorage.swift; sourceTree = "<group>"; };
-		F82A4C9523BEEFB80051407A /* SwiftMultihash.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftMultihash.framework; path = Carthage/Build/iOS/SwiftMultihash.framework; sourceTree = "<group>"; };
-		F82A4C9623BEEFB80051407A /* SwiftIpfsApi.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftIpfsApi.framework; path = Carthage/Build/iOS/SwiftIpfsApi.framework; sourceTree = "<group>"; };
-		F82A4C9723BEEFB80051407A /* SwiftHex.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftHex.framework; path = Carthage/Build/iOS/SwiftHex.framework; sourceTree = "<group>"; };
-		F82A4C9823BEEFB80051407A /* SwiftMultiaddr.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftMultiaddr.framework; path = Carthage/Build/iOS/SwiftMultiaddr.framework; sourceTree = "<group>"; };
-		F82A4C9923BEEFB80051407A /* SwiftGMP.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftGMP.framework; path = Carthage/Build/iOS/SwiftGMP.framework; sourceTree = "<group>"; };
-		F82A4C9A23BEEFB80051407A /* VarInt.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VarInt.framework; path = Carthage/Build/iOS/VarInt.framework; sourceTree = "<group>"; };
-		F82A4C9B23BEEFB80051407A /* SwiftBase58.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftBase58.framework; path = Carthage/Build/iOS/SwiftBase58.framework; sourceTree = "<group>"; };
+		F82A4D6D23BEF56E0051407A /* SwiftIpfsApi.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftIpfsApi.framework; path = Carthage/Build/iOS/SwiftIpfsApi.framework; sourceTree = "<group>"; };
+		F82A4D6E23BEF56E0051407A /* SwiftMultihash.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftMultihash.framework; path = Carthage/Build/iOS/SwiftMultihash.framework; sourceTree = "<group>"; };
+		F82A4D6F23BEF56E0051407A /* SwiftGMP.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftGMP.framework; path = Carthage/Build/iOS/SwiftGMP.framework; sourceTree = "<group>"; };
+		F82A4D7023BEF56E0051407A /* VarInt.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = VarInt.framework; path = Carthage/Build/iOS/VarInt.framework; sourceTree = "<group>"; };
+		F82A4D7123BEF56E0051407A /* SwiftMultiaddr.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftMultiaddr.framework; path = Carthage/Build/iOS/SwiftMultiaddr.framework; sourceTree = "<group>"; };
+		F82A4D7223BEF56E0051407A /* SwiftBase58.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftBase58.framework; path = Carthage/Build/iOS/SwiftBase58.framework; sourceTree = "<group>"; };
+		F82A4D7323BEF56E0051407A /* SwiftHex.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftHex.framework; path = Carthage/Build/iOS/SwiftHex.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,13 +41,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F82A4C9C23BEEFB90051407A /* SwiftMultihash.framework in Frameworks */,
-				F82A4C9D23BEEFB90051407A /* SwiftIpfsApi.framework in Frameworks */,
-				F82A4C9E23BEEFB90051407A /* SwiftHex.framework in Frameworks */,
-				F82A4C9F23BEEFB90051407A /* SwiftMultiaddr.framework in Frameworks */,
-				F82A4CA023BEEFB90051407A /* SwiftGMP.framework in Frameworks */,
-				F82A4CA123BEEFB90051407A /* VarInt.framework in Frameworks */,
-				F82A4CA223BEEFB90051407A /* SwiftBase58.framework in Frameworks */,
+				F82A4D7423BEF56E0051407A /* SwiftIpfsApi.framework in Frameworks */,
+				F82A4D7523BEF56E0051407A /* SwiftMultihash.framework in Frameworks */,
+				F82A4D7623BEF56E0051407A /* SwiftGMP.framework in Frameworks */,
+				F82A4D7723BEF56E0051407A /* VarInt.framework in Frameworks */,
+				F82A4D7823BEF56E0051407A /* SwiftMultiaddr.framework in Frameworks */,
+				F82A4D7923BEF56E0051407A /* SwiftBase58.framework in Frameworks */,
+				F82A4D7A23BEF56E0051407A /* SwiftHex.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,13 +85,13 @@
 		F80A43AD233F119800831162 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F82A4C9B23BEEFB80051407A /* SwiftBase58.framework */,
-				F82A4C9923BEEFB80051407A /* SwiftGMP.framework */,
-				F82A4C9723BEEFB80051407A /* SwiftHex.framework */,
-				F82A4C9623BEEFB80051407A /* SwiftIpfsApi.framework */,
-				F82A4C9823BEEFB80051407A /* SwiftMultiaddr.framework */,
-				F82A4C9523BEEFB80051407A /* SwiftMultihash.framework */,
-				F82A4C9A23BEEFB80051407A /* VarInt.framework */,
+				F82A4D7223BEF56E0051407A /* SwiftBase58.framework */,
+				F82A4D6F23BEF56E0051407A /* SwiftGMP.framework */,
+				F82A4D7323BEF56E0051407A /* SwiftHex.framework */,
+				F82A4D6D23BEF56E0051407A /* SwiftIpfsApi.framework */,
+				F82A4D7123BEF56E0051407A /* SwiftMultiaddr.framework */,
+				F82A4D6E23BEF56E0051407A /* SwiftMultihash.framework */,
+				F82A4D7023BEF56E0051407A /* VarInt.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
